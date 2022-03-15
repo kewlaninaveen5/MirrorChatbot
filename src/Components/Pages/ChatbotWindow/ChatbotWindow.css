@@ -1,0 +1,118 @@
+ .chatbot-window-container {
+    background-color: #1662AD;
+    color: #fff;
+ }
+
+
+.bgc-img {
+    max-width: 100%;
+}
+
+
+.chatbot-container {
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+    right: 40px;
+    bottom: 100px;
+    width: 80%;
+    max-width: 400px;
+    margin: 5px auto 10px;
+    border-radius: 20px 20px 10px 10px;
+    box-shadow: 5px 5px 25px #999;
+    /* border:  2px rgba(111,176,199) solid; */
+}
+
+.chatbot-header {
+    height: 70px;
+    border-radius: 20px 20px 0px 0px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    background-image: linear-gradient(to right, rgb(13, 139, 185), rgb(139, 183, 199));
+    /* rgba(111,176,199); */
+    transition: 0.5s;
+}
+
+.bot {
+    font-size: 30px;
+    /* color: white; */
+    text-align: left;
+    background-color: #dedede;
+    padding: 10px;
+    border-radius: 27px;
+    border: 2px white solid;
+    margin: 8px 30px 5px;
+    vertical-align: middle;
+    transition: 0.5s;
+
+}
+
+.chatbot-chatbox {
+    /* border: 2px #ccc solid; */
+    height: 350px;
+    overflow: scroll;
+    border-bottom: 2px #dedede solid;
+}
+
+.chatbot-inputs {
+    white-space: nowrap;
+}
+
+.chatbot-send-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 18%;
+    padding: 5px;
+}
+
+.clear-chat-button {
+    position: absolute;
+    z-index: 100;
+
+    bottom: 30px;
+    width: 150px;
+    /* margin: auto; */
+    right: 150px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .chatbot-container {
+        position: absolute;
+        right: 20px;
+        bottom: 90px;
+        width: 80%;
+        max-width: 400px;
+        margin: 5px auto 10px;
+        border-radius: 20px 20px 10px 10px;
+        box-shadow: 5px 5px 25px #ccc;
+        /* border:  2px rgba(111,176,199) solid; */
+    }
+
+    .chatbot-header {
+        height: 40px;
+        border-radius: 10px 10px 0px 0px;
+        vertical-align: middle;
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        background-image: linear-gradient(to right, rgb(111, 175, 199), rgba(111, 175, 199, 0.692));
+        /* rgba(111,176,199); */
+    }
+
+    .bot {
+        font-size: 20px;
+        /* color: white; */
+        text-align: left;
+        background-color: #dedede;
+        padding: 2px;
+        border-radius: 27px;
+        border: 2px white solid;
+        margin: 4px 10px 5px;
+        vertical-align: middle;
+    }
+
+}

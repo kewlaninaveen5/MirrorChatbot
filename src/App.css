@@ -1,10 +1,32 @@
 .App {
   text-align: center;
+  background-color: #1662AD;
+  min-height: 100vh;
+}
+
+.para {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  transition: 0.5s;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media screen and (max-width:950px) {
+  .para {
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +37,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;

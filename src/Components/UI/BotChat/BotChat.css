@@ -1,0 +1,50 @@
+.botchat {
+    display: inline-block;
+    background-color: rgb(234, 240, 246);
+    color: rgb(66, 91, 118);
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: auto;
+    border-radius: 0px 10px 10px 10px ;
+    min-width: 3%;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: top;
+    max-width: 80%;
+}
+
+.bot-image {
+    display: inline-block;
+    font-size: 30px;
+    /* vertical-align: bottom; */
+    padding: 2px;
+    text-align: center;
+    margin-left: 5px;
+    width: 36px;
+    height: 36px;
+    margin-top: 6px;
+    border-radius: 18px;
+    transition: 0.5s;
+    /* background-color: #eee; */
+}
+
+.botchat-container {
+    
+    text-align: left;
+    align-items: right;
+    align-self: right;
+    justify-content: end;
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .bot-image {
+        display: none;
+    transition: 0.5s;
+
+    }
+
+}
