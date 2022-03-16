@@ -31,7 +31,7 @@
     font-size: 30px;
     color: white;
     text-align: left;
-    background-image: linear-gradient(to right, rgb(13, 139, 185), rgb(139, 183, 199));
+    background-image: linear-gradient(to right, rgb(13, 139, 185), rgb(110, 175, 199));
     /* rgba(111,176,199); */
     transition: 0.5s;
 }
