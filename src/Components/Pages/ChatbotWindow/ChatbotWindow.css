@@ -8,6 +8,20 @@
     max-width: 100%;
 }
 
+.close-button {
+    position: absolute;
+    z-index: 100;
+    bottom: 20px;
+    right: 20px;
+}
+
+.open-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
 
 .chatbot-container {
     z-index: 100;
@@ -52,7 +66,8 @@
 
 .chatbot-chatbox {
     /* border: 2px #ccc solid; */
-    height: 350px;
+    height: 100%;
+    max-height: 350px;
     overflow: scroll;
     border-bottom: 2px #dedede solid;
 }
@@ -71,7 +86,6 @@
 .clear-chat-button {
     position: absolute;
     z-index: 100;
-
     bottom: 30px;
     width: 150px;
     /* margin: auto; */
@@ -81,27 +95,49 @@
 @media screen and (max-width: 400px) {
 
     .chatbot-container {
-        position: absolute;
-        right: 20px;
-        bottom: 90px;
-        width: 80%;
-        max-width: 400px;
-        margin: 5px auto 10px;
-        border-radius: 20px 20px 10px 10px;
-        box-shadow: 5px 5px 25px #ccc;
-        /* border:  2px rgba(111,176,199) solid; */
+        height: 80%;
+        max-height: 540px;
+        background-color: none;
+        width: 100%;
+        margin: 0px;
+        right: 0px;
+        top: 0px;
+        border-radius: 0px;
+        /* min-height: fit-content; */
     }
 
     .chatbot-header {
-        height: 40px;
-        border-radius: 10px 10px 0px 0px;
-        vertical-align: middle;
+        height: 10%;
+        min-height: 50px;
+        border-radius: 0px;
+        padding-top: 10px;
         font-size: 20px;
-        color: white;
-        text-align: left;
-        background-image: linear-gradient(to right, rgb(111, 175, 199), rgba(111, 175, 199, 0.692));
-        /* rgba(111,176,199); */
     }
+
+    .chatbot-chatbox {
+        max-height: 400px;
+
+        background-color: #fff;
+
+    }
+
+    .chatbot-inputs {
+        min-height: 60px;
+        background-color: rgb(158, 58, 58);
+        height: 13%;
+        margin-bottom: 5px;
+        
+        /* padding-top: 5px; */
+    }
+
+    .close-button {
+        position: absolute;
+        z-index: 100;
+        bottom: 5px;
+        right: 20px;
+    }
+
+
 
     .bot {
         font-size: 20px;
@@ -113,6 +149,32 @@
         border: 2px white solid;
         margin: 4px 10px 5px;
         vertical-align: middle;
+    }
+
+    .clear-chat-button {
+        top: 5px;
+        right: 10px;
+        width: 120px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-height: 590px) {
+
+    .clear-chat-button {
+        display: none;
+    }
+
+    .close-button {
+        position: absolute;
+        top: 2px;
+    }
+    .chatbot-chatbox {
+        height: 80%;
+
+        background-color: #fff;
+
     }
 
 }

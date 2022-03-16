@@ -75,9 +75,9 @@
 
 .socialmedia-button {
     display: inline-block;
-    position: absolute;
+    /* position: absolute;
     bottom: 20px;
-    right: 20px;
+    right: 20px; */
     border-radius: 35px;
     background-color: rgba(111,176,199);
     height: 70px;
@@ -129,9 +129,9 @@
 
     .socialmedia-button {
         display: inline-block;
-        position: absolute;
+        /* position: absolute;
         bottom: 20px;
-        right: 20px;
+        right: 20px; */
         border-radius: 35px;
         background-color: rgba(111,176,199);
         height: 50px;

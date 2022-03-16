@@ -94,7 +94,9 @@ const ChatbotWindow = (props) => {
 
             <BlueButton btnName='Open ChatBot' clicked={()=>openChatbot()} />
             <div>Click here to open the ChatBot</div>
+            <div className='open-button' >
             <SocialMediaButton icon='open' clicked={()=>openChatbot()}/>
+            </div>
         </div>)
     else 
     display= (<div>
@@ -143,7 +145,9 @@ const ChatbotWindow = (props) => {
             <div className='clear-chat-button' >
                 <BlueButton btnName='Clear All Chat' clicked={()=>ClearHandler()} />
             </div>
-        <SocialMediaButton icon='close' clicked={()=>setIsopen(false)} />
+            <div className='close-button' >
+            <SocialMediaButton icon='close' clicked={()=>setIsopen(false)} />
+            </div>
 
     </div>)
 
