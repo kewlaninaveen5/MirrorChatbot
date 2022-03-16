@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MirrorChatbot/static/css/main.bef53fff.css",
+    "main.js": "/MirrorChatbot/static/js/main.0fe79481.js",
+    "static/js/787.8fb4aeac.chunk.js": "/MirrorChatbot/static/js/787.8fb4aeac.chunk.js",
+    "static/media/header-chat-box.png": "/MirrorChatbot/static/media/header-chat-box.02c45aedbc967b14bb25.png",
+    "index.html": "/MirrorChatbot/index.html",
+    "main.bef53fff.css.map": "/MirrorChatbot/static/css/main.bef53fff.css.map",
+    "main.0fe79481.js.map": "/MirrorChatbot/static/js/main.0fe79481.js.map",
+    "787.8fb4aeac.chunk.js.map": "/MirrorChatbot/static/js/787.8fb4aeac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef53fff.css",
+    "static/js/main.0fe79481.js"
+  ]
+}
